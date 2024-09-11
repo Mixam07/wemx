@@ -1,0 +1,11 @@
+{
+    "name": "Downloads",
+    "alias": "downloads",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Downloads\\Providers\\DownloadsServiceProvider"
+    ],
+    "files": []
+}

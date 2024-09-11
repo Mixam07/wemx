@@ -1,0 +1,48 @@
+<?php
+
+return [
+
+    'name' => '$STUDLY_NAME$ Module',
+    'icon' => 'https://imgur.png',
+    'author' => 'WemX',
+    'version' => '1.0.0',
+    'wemx_version' => '1.0.0',
+
+    'elements' => [
+
+        'main_menu' => 
+        [
+            [
+                'name' => '$STUDLY_NAME$ Module',
+                'icon' => '<i class="fas fa-cog"></i>',
+                'href' => '#',
+                'style' => '',
+            ],
+            // ... add more menu items
+        ],
+
+        'user_dropdown' => 
+        [
+            [
+                'name' => '$STUDLY_NAME$ Module',
+                'icon' => '<i class="fas fa-cog"></i>',
+                'href' => '#',
+                'style' => '',
+            ],
+            // ... add more menu items
+        ],
+
+        'admin_menu' => 
+        [
+            [
+                'name' => '$STUDLY_NAME$ Module',
+                'icon' => '<i class="fas fa-cog"></i>',
+                'href' => '#',
+                'style' => '',
+            ],
+            // ... add more menu items
+        ],
+
+    ],
+
+];

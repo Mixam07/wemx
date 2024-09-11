@@ -1,0 +1,11 @@
+{
+    "name": "Locales",
+    "alias": "locales",
+    "description": "Laravel localization manager by WemxPro",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Locales\\Providers\\LocalesServiceProvider"
+    ],
+    "files": ["locales.php"]
+}

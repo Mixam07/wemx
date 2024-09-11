@@ -1,0 +1,15 @@
+{
+    "name": "Affiliates",
+    "alias": "affiliates",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Affiliates\\Providers\\AffiliatesServiceProvider"
+    ],
+    "aliases": {
+        "Affiliate": "Modules\\Affiliates\\Entities\\Affiliate",
+        "AffiliateInvite": "Modules\\Affiliates\\Entities\\AffiliateInvite"
+    },
+    "files": []
+}

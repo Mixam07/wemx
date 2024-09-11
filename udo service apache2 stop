@@ -1,0 +1,1746 @@
+-- Logs begin at Sat 2024-06-01 19:38:48 UTC, end at Sat 2024-06-01 21:31:26 UTC. --
+Jun 01 20:30:58 vps sshd[772]: Failed password for invalid user debian from 110.175.220.250 port 54221 ssh2
+Jun 01 20:31:00 vps sshd[772]: Connection closed by invalid user debian 110.175.220.250 port 54221 [preauth]
+Jun 01 20:36:44 vps sshd[777]: Invalid user admin from 193.201.9.156 port 40440
+Jun 01 20:36:44 vps sshd[777]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+Jun 01 20:36:44 vps sshd[777]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=193.201.9.156[0m
+Jun 01 20:36:46 vps sshd[777]: Failed password for invalid user admin from 193.201.9.156 port 40440 ssh2
+Jun 01 20:36:47 vps sshd[777]: Connection reset by invalid user admin 193.201.9.156 port 40440 [preauth]
+Jun 01 20:39:39 vps sshd[779]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=141.98.10.125  user=root[0m
+Jun 01 20:39:41 vps sshd[779]: Failed password for root from 141.98.10.125 port 42018 ssh2
+Jun 01 20:39:44 vps sshd[779]: Connection closed by authenticating user root 141.98.10.125 port 42018 [preauth]
+Jun 01 20:40:11 vps sshd[782]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=213.109.202.127  user=root[0m
+Jun 01 20:40:13 vps sshd[782]: Failed password for root from 213.109.202.127 port 60158 ssh2
+Jun 01 20:40:13 vps sshd[782]: Connection closed by authenticating user root 213.109.202.127 port 60158 [preauth]
+Jun 01 20:52:22 vps sshd[790]: Invalid user ccj from 36.92.248.137 port 46312
+Jun 01 20:52:23 vps sshd[790]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+Jun 01 20:52:23 vps sshd[790]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=36.92.248.137[0m
+Jun 01 20:52:25 vps sshd[790]: Failed password for invalid user ccj from 36.92.248.137 port 46312 ssh2
+Jun 01 20:52:27 vps sshd[790]: Connection closed by invalid user ccj 36.92.248.137 port 46312 [preauth]
+Jun 01 21:04:27 vps sshd[797]: Connection closed by 114.67.89.110 port 50076 [preauth]
+Jun 01 21:07:34 vps sshd[800]: Accepted password for root from 91.94.83.148 port 16968 ssh2
+Jun 01 21:07:34 vps sshd[800]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jun 01 21:07:34 vps systemd[1]: Created slice User Slice of UID 0.
+-- Subject: A start job for unit user-0.slice has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user-0.slice has finished successfully.
+-- 
+-- The job identifier is 431.
+Jun 01 21:07:34 vps systemd[1]: Starting User Runtime Directory /run/user/0...
+-- Subject: A start job for unit user-runtime-dir@0.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user-runtime-dir@0.service has begun execution.
+-- 
+-- The job identifier is 435.
+Jun 01 21:07:34 vps systemd-logind[445]: New session 2 of user root.
+-- Subject: A new session 2 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 2 has been created for the user root.
+-- 
+-- The leading process of the session is 800.
+Jun 01 21:07:34 vps systemd[1]: Finished User Runtime Directory /run/user/0.
+-- Subject: A start job for unit user-runtime-dir@0.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user-runtime-dir@0.service has finished successfully.
+-- 
+-- The job identifier is 435.
+Jun 01 21:07:34 vps systemd[1]: Starting User Manager for UID 0...
+-- Subject: A start job for unit user@0.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user@0.service has begun execution.
+-- 
+-- The job identifier is 430.
+Jun 01 21:07:34 vps systemd[803]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 01 21:07:34 vps systemd[803]: Reached target Paths.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 15.
+Jun 01 21:07:34 vps systemd[803]: Reached target Timers.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 3.
+Jun 01 21:07:34 vps systemd[803]: Starting D-Bus User Message Bus Socket.
+-- Subject: A start job for unit UNIT has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has begun execution.
+-- 
+-- The job identifier is 8.
+Jun 01 21:07:34 vps systemd[803]: Listening on GnuPG network certificate management daemon.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 12.
+Jun 01 21:07:34 vps systemd[803]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 6.
+Jun 01 21:07:34 vps systemd[803]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 13.
+Jun 01 21:07:34 vps systemd[803]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 11.
+Jun 01 21:07:34 vps systemd[803]: Listening on GnuPG cryptographic agent and passphrase cache.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 9.
+Jun 01 21:07:34 vps systemd[803]: Listening on debconf communication socket.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 10.
+Jun 01 21:07:34 vps systemd[803]: Listening on REST API socket for snapd user session agent.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 14.
+Jun 01 21:07:34 vps systemd[803]: Listening on D-Bus User Message Bus Socket.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 8.
+Jun 01 21:07:34 vps systemd[803]: Reached target Sockets.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 5.
+Jun 01 21:07:34 vps systemd[803]: Reached target Basic System.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 2.
+Jun 01 21:07:34 vps systemd[1]: Started User Manager for UID 0.
+-- Subject: A start job for unit user@0.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user@0.service has finished successfully.
+-- 
+-- The job identifier is 430.
+Jun 01 21:07:34 vps systemd[803]: Reached target Main User Target.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 1.
+Jun 01 21:07:34 vps systemd[803]: Startup finished in 54ms.
+-- Subject: User manager start-up is now complete
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The user manager instance for user 0 has been started. All services queued
+-- for starting have been started. Note that other services might still be starting
+-- up or be started at any later time.
+-- 
+-- Startup of the manager took 54269 microseconds.
+Jun 01 21:07:34 vps systemd[1]: Started Session 2 of user root.
+-- Subject: A start job for unit session-2.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-2.scope has finished successfully.
+-- 
+-- The job identifier is 514.
+Jun 01 21:07:43 vps sudo[923]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt update[0m
+Jun 01 21:07:43 vps sudo[923]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:07:43 vps systemd[1]: Starting Update APT News...
+-- Subject: A start job for unit apt-news.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has begun execution.
+-- 
+-- The job identifier is 599.
+Jun 01 21:07:43 vps systemd[1]: Starting Update the local ESM caches...
+-- Subject: A start job for unit esm-cache.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has begun execution.
+-- 
+-- The job identifier is 680.
+Jun 01 21:07:43 vps systemd[1]: apt-news.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apt-news.service has successfully entered the 'dead' state.
+Jun 01 21:07:43 vps systemd[1]: Finished Update APT News.
+-- Subject: A start job for unit apt-news.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has finished successfully.
+-- 
+-- The job identifier is 599.
+Jun 01 21:07:43 vps systemd[1]: esm-cache.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit esm-cache.service has successfully entered the 'dead' state.
+Jun 01 21:07:43 vps systemd[1]: Finished Update the local ESM caches.
+-- Subject: A start job for unit esm-cache.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has finished successfully.
+-- 
+-- The job identifier is 680.
+Jun 01 21:07:44 vps dbus-daemon[411]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.17' (uid=0 pid=1240 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Jun 01 21:07:44 vps systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 761.
+Jun 01 21:07:44 vps PackageKit[1243]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Jun 01 21:07:44 vps dbus-daemon[411]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jun 01 21:07:44 vps systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 761.
+Jun 01 21:07:49 vps sudo[923]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:07:56 vps sudo[1284]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt upgrade[0m
+Jun 01 21:07:56 vps sudo[1284]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:07:57 vps sudo[1284]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:08:26 vps systemd[1]: Starting Update APT News...
+-- Subject: A start job for unit apt-news.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has begun execution.
+-- 
+-- The job identifier is 843.
+Jun 01 21:08:26 vps systemd[1]: Starting Update the local ESM caches...
+-- Subject: A start job for unit esm-cache.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has begun execution.
+-- 
+-- The job identifier is 924.
+Jun 01 21:08:26 vps systemd[1]: apt-news.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apt-news.service has successfully entered the 'dead' state.
+Jun 01 21:08:26 vps systemd[1]: Finished Update APT News.
+-- Subject: A start job for unit apt-news.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has finished successfully.
+-- 
+-- The job identifier is 843.
+Jun 01 21:08:26 vps systemd[1]: esm-cache.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit esm-cache.service has successfully entered the 'dead' state.
+Jun 01 21:08:26 vps systemd[1]: Finished Update the local ESM caches.
+-- Subject: A start job for unit esm-cache.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has finished successfully.
+-- 
+-- The job identifier is 924.
+Jun 01 21:08:37 vps sshd[1852]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=213.109.202.127  user=root[0m
+Jun 01 21:08:37 vps sudo[1855]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/bash[0m
+Jun 01 21:08:37 vps sudo[1855]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:08:38 vps sshd[1852]: Failed password for root from 213.109.202.127 port 51268 ssh2
+Jun 01 21:08:39 vps systemd[1]: Starting Update APT News...
+-- Subject: A start job for unit apt-news.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has begun execution.
+-- 
+-- The job identifier is 1005.
+Jun 01 21:08:39 vps systemd[1]: Starting Update the local ESM caches...
+-- Subject: A start job for unit esm-cache.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has begun execution.
+-- 
+-- The job identifier is 1086.
+Jun 01 21:08:39 vps systemd[1]: apt-news.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apt-news.service has successfully entered the 'dead' state.
+Jun 01 21:08:39 vps systemd[1]: Finished Update APT News.
+-- Subject: A start job for unit apt-news.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has finished successfully.
+-- 
+-- The job identifier is 1005.
+Jun 01 21:08:39 vps systemd[1]: esm-cache.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit esm-cache.service has successfully entered the 'dead' state.
+Jun 01 21:08:39 vps systemd[1]: Finished Update the local ESM caches.
+-- Subject: A start job for unit esm-cache.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has finished successfully.
+-- 
+-- The job identifier is 1086.
+Jun 01 21:08:39 vps sshd[1852]: Connection closed by authenticating user root 213.109.202.127 port 51268 [preauth]
+Jun 01 21:08:46 vps sudo[1855]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:08:51 vps systemd[1]: Starting Update APT News...
+-- Subject: A start job for unit apt-news.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has begun execution.
+-- 
+-- The job identifier is 1167.
+Jun 01 21:08:51 vps systemd[1]: Starting Update the local ESM caches...
+-- Subject: A start job for unit esm-cache.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has begun execution.
+-- 
+-- The job identifier is 1248.
+Jun 01 21:08:51 vps systemd[1]: apt-news.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apt-news.service has successfully entered the 'dead' state.
+Jun 01 21:08:51 vps systemd[1]: Finished Update APT News.
+-- Subject: A start job for unit apt-news.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has finished successfully.
+-- 
+-- The job identifier is 1167.
+Jun 01 21:08:52 vps systemd[1]: esm-cache.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit esm-cache.service has successfully entered the 'dead' state.
+Jun 01 21:08:52 vps systemd[1]: Finished Update the local ESM caches.
+-- Subject: A start job for unit esm-cache.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has finished successfully.
+-- 
+-- The job identifier is 1248.
+Jun 01 21:09:21 vps groupadd[3396]: group added to /etc/group: name=mysql, GID=120
+Jun 01 21:09:21 vps groupadd[3396]: group added to /etc/gshadow: name=mysql
+Jun 01 21:09:21 vps groupadd[3396]: new group: name=mysql, GID=120
+Jun 01 21:09:21 vps useradd[3404]: new user: name=mysql, UID=113, GID=120, home=/nonexistent, shell=/bin/false, from=none
+Jun 01 21:09:21 vps chage[3412]: changed password expiry for mysql
+Jun 01 21:09:21 vps chfn[3416]: changed user 'mysql' information
+Jun 01 21:09:25 vps systemd[1]: Reloading.
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: Reloading.
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: Started Clean PHP session files every 30 mins.
+-- Subject: A start job for unit phpsessionclean.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.timer has finished successfully.
+-- 
+-- The job identifier is 1331.
+Jun 01 21:09:26 vps systemd[1]: Reloading.
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:26 vps php8.1-common[4244]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke calendar: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:27 vps php8.1-common[4276]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke calendar: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:27 vps php8.1-common[4475]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ctype: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:27 vps php8.1-common[4508]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ctype: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:27 vps php8.1-common[4708]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke exif: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:27 vps php8.1-common[4740]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke exif: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:28 vps php8.1-common[4940]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke fileinfo: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:28 vps php8.1-common[4972]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke fileinfo: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:28 vps php8.1-common[5172]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ffi: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:28 vps php8.1-common[5204]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ffi: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:28 vps php8.1-common[5404]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ftp: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:28 vps php8.1-common[5436]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ftp: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:29 vps php8.1-common[5636]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke gettext: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:29 vps php8.1-common[5668]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke gettext: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:29 vps php8.1-common[5868]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke iconv: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:29 vps php8.1-common[5900]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke iconv: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:29 vps php8.1-common[6100]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke pdo: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:29 vps php8.1-common[6132]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke pdo: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:30 vps php8.1-common[6332]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke phar: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:30 vps php8.1-common[6364]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke phar: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:30 vps php8.1-common[6564]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke posix: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:30 vps php8.1-common[6596]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke posix: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:31 vps php8.1-common[6796]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke shmop: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:31 vps php8.1-common[6828]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke shmop: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:31 vps php8.1-common[7028]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sockets: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:31 vps php8.1-common[7060]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sockets: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:31 vps php8.1-common[7260]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvmsg: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:31 vps php8.1-common[7292]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvmsg: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:32 vps php8.1-common[7492]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvsem: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:32 vps php8.1-common[7524]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvsem: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:32 vps php8.1-common[7724]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvshm: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:32 vps php8.1-common[7756]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvshm: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:32 vps php8.1-common[7956]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke tokenizer: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:32 vps php8.1-common[7988]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke tokenizer: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:33 vps systemd[1]: Reloading.
+Jun 01 21:09:33 vps sshd[8031]: [0;1;31m[0;1;39m[0;1;31merror: kex_exchange_identification: Connection closed by remote host[0m
+Jun 01 21:09:33 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:33 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:33 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:33 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:33 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:33 vps systemd[1]: Reloading.
+Jun 01 21:09:33 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:33 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:33 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:33 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:33 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:34 vps php8.1-curl[8288]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke curl: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:34 vps php8.1-curl[8320]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke curl: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:34 vps php8.1-xml[8521]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke dom: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:34 vps php8.1-xml[8553]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke dom: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:34 vps php8.1-xml[8753]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke simplexml: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:34 vps php8.1-xml[8785]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke simplexml: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:35 vps php8.1-xml[8985]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xml: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:35 vps php8.1-xml[9017]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xml: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:35 vps php8.1-xml[9217]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xmlreader: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:35 vps php8.1-xml[9249]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xmlreader: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:36 vps php8.1-xml[9449]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xmlwriter: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:36 vps php8.1-xml[9481]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xmlwriter: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:36 vps php8.1-xml[9681]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xsl: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:36 vps php8.1-xml[9713]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xsl: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:36 vps php8.1-mysql[9924]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mysqlnd: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:36 vps php8.1-mysql[9956]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mysqlnd: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:37 vps php8.1-mysql[10156]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mysqli: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:37 vps php8.1-mysql[10188]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mysqli: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:37 vps php8.1-mysql[10388]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke pdo_mysql: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:37 vps php8.1-mysql[10420]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke pdo_mysql: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:38 vps php8.1-zip[10621]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke zip: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:38 vps php8.1-zip[10653]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke zip: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:38 vps php8.1-readline[10854]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke readline: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:38 vps php8.1-readline[10886]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke readline: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:38 vps php8.1-opcache[11087]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke opcache: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:38 vps php8.1-opcache[11119]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke opcache: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:39 vps php8.1-bcmath[11330]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke bcmath: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:39 vps php8.1-bcmath[11362]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke bcmath: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:39 vps php8.1-mbstring[11563]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mbstring: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:39 vps php8.1-mbstring[11595]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mbstring: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[11753]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke pdo_mysql: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[11786]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ftp: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[11819]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke readline: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[11852]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke bcmath: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[11885]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ffi: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[11918]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mysqli: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[11951]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke calendar: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[11984]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke pdo: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12017]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke curl: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12050]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xsl: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12083]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sockets: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12116]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke iconv: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12149]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke exif: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12182]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xml: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12215]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mysqlnd: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12248]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke fileinfo: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12281]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xmlreader: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12314]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke simplexml: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12347]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke shmop: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12380]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke posix: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12413]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke phar: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12446]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvshm: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12479]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke gettext: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12512]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xmlwriter: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12545]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke dom: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12578]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke tokenizer: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12611]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ctype: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12644]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke zip: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12677]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mbstring: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12710]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvmsg: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:40 vps php8.1-cli[12743]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvsem: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:41 vps php8.1-cli[12776]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke opcache: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:41 vps systemd[1]: Reloading.
+Jun 01 21:09:41 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:41 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:41 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:41 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:41 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps audit[12888]: [0;34m[0;34mAVC apparmor="STATUS" operation="profile_remove" info="profile does not exist" error=-2 profile="unconfined" name="/usr/sbin/mariadbd" pid=12888 comm="apparmor_parser"[0m
+Jun 01 21:09:43 vps kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1717276183.164:42): apparmor="STATUS" operation="profile_remove" info="profile does not exist" error=-2 profile="unconfined" name="/usr/sbin/mariadbd" pid=12888 comm="apparmor_parser"[0m
+Jun 01 21:09:43 vps systemd[1]: Reloading.
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: Reloading.
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: Reloading.
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:43 vps systemd[1]: Starting MariaDB 11.4.2 database server...
+-- Subject: A start job for unit mariadb.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit mariadb.service has begun execution.
+-- 
+-- The job identifier is 1420.
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] Starting MariaDB 11.4.2-MariaDB-ubu2004 source revision 3fca5ed772fb75e3e57c507edef2985f8eba5b12 as process 13016
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: Using transactional memory
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: Number of transaction pools: 1
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: Using Linux native AIO
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: Completed initialization of buffer pool
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: End of log at LSN=47763
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: Opened 3 undo tablespaces
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: 128 rollback segments in 3 undo tablespaces are active.
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: log sequence number 47763; transaction id 14
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] Plugin 'FEEDBACK' is disabled.
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] Plugin 'wsrep-provider' is disabled.
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] InnoDB: Buffer pool(s) load completed at 240601 21:09:44
+Jun 01 21:09:44 vps mariadbd[13016]: 2024-06-01 21:09:44 0 [Note] Server socket created on IP: '127.0.0.1'.
+Jun 01 21:09:45 vps mariadbd[13016]: 2024-06-01 21:09:45 0 [Note] mariadbd: Event Scheduler: Loaded 0 events
+Jun 01 21:09:45 vps mariadbd[13016]: 2024-06-01 21:09:45 0 [Note] /usr/sbin/mariadbd: ready for connections.
+Jun 01 21:09:45 vps mariadbd[13016]: Version: '11.4.2-MariaDB-ubu2004'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+Jun 01 21:09:45 vps systemd[1]: Started MariaDB 11.4.2 database server.
+-- Subject: A start job for unit mariadb.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit mariadb.service has finished successfully.
+-- 
+-- The job identifier is 1420.
+Jun 01 21:09:45 vps /etc/mysql/debian-start[13032]: Upgrading MySQL tables if necessary.
+Jun 01 21:09:45 vps /etc/mysql/debian-start[13043]: Checking for insecure root accounts.
+Jun 01 21:09:45 vps /etc/mysql/debian-start[13047]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+Jun 01 21:09:45 vps php8.1-fpm[13215]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke pdo_mysql: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13250]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ftp: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13283]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke readline: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13316]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke bcmath: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13349]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ffi: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13382]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mysqli: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13415]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke calendar: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13448]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke pdo: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13481]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke curl: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13514]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xsl: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13547]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sockets: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13580]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke iconv: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13613]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke exif: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13646]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xml: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13679]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mysqlnd: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13712]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke fileinfo: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13745]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xmlreader: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13778]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke simplexml: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:45 vps php8.1-fpm[13811]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke shmop: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[13844]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke posix: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[13877]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke phar: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[13910]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvshm: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[13943]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke gettext: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[13976]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke xmlwriter: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[14009]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke dom: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[14042]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke tokenizer: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[14075]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke ctype: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[14108]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke zip: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[14141]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke mbstring: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[14174]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvmsg: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[14207]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke sysvsem: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps php8.1-fpm[14240]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke opcache: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:46 vps systemd[1]: Reloading.
+Jun 01 21:09:46 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:46 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:46 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:46 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:46 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:46 vps systemd[1]: Reloading.
+Jun 01 21:09:46 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:46 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:46 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:46 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:46 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:46 vps systemd[1]: Reloading.
+Jun 01 21:09:47 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:47 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:47 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:47 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:47 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:47 vps systemd[1]: Starting The PHP 8.1 FastCGI Process Manager...
+-- Subject: A start job for unit php8.1-fpm.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit php8.1-fpm.service has begun execution.
+-- 
+-- The job identifier is 1504.
+Jun 01 21:09:47 vps systemd[1]: Started The PHP 8.1 FastCGI Process Manager.
+-- Subject: A start job for unit php8.1-fpm.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit php8.1-fpm.service has finished successfully.
+-- 
+-- The job identifier is 1504.
+Jun 01 21:09:47 vps php8.1-gd[14556]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke gd: already enabled for PHP 8.1 cli sapi[0m
+Jun 01 21:09:47 vps php8.1-gd[14588]: [0;38;5;245m[0;1;31m[0;38;5;245mphp_invoke gd: already enabled for PHP 8.1 fpm sapi[0m
+Jun 01 21:09:47 vps systemd[1]: Reloading.
+Jun 01 21:09:47 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:48 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:48 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:48 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:48 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:48 vps systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: A start job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 1586.
+Jun 01 21:09:48 vps systemd[1]: Started A high performance web server and a reverse proxy server.
+-- Subject: A start job for unit nginx.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has finished successfully.
+-- 
+-- The job identifier is 1586.
+Jun 01 21:09:48 vps systemd[1]: Reloading.
+Jun 01 21:09:48 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:48 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:48 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:48 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:48 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:50 vps systemd[1]: Reloading.
+Jun 01 21:09:51 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init-local.service:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:51 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.service:19: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:51 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-init.target:15: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:51 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-final.service:9: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:51 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/cloud-config.service:8: Unknown key name 'ConditionEnvironment' in section 'Unit', ignoring.[0m
+Jun 01 21:09:51 vps systemd[1]: Stopping The PHP 8.1 FastCGI Process Manager...
+-- Subject: A stop job for unit php8.1-fpm.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit php8.1-fpm.service has begun execution.
+-- 
+-- The job identifier is 1669.
+Jun 01 21:09:51 vps systemd[1]: php8.1-fpm.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit php8.1-fpm.service has successfully entered the 'dead' state.
+Jun 01 21:09:51 vps systemd[1]: Stopped The PHP 8.1 FastCGI Process Manager.
+-- Subject: A stop job for unit php8.1-fpm.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit php8.1-fpm.service has finished.
+-- 
+-- The job identifier is 1669 and the job result is done.
+Jun 01 21:09:51 vps systemd[1]: Starting The PHP 8.1 FastCGI Process Manager...
+-- Subject: A start job for unit php8.1-fpm.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit php8.1-fpm.service has begun execution.
+-- 
+-- The job identifier is 1669.
+Jun 01 21:09:51 vps systemd[1]: Started The PHP 8.1 FastCGI Process Manager.
+-- Subject: A start job for unit php8.1-fpm.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit php8.1-fpm.service has finished successfully.
+-- 
+-- The job identifier is 1669.
+Jun 01 21:09:58 vps sudo[15613]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/php -- --install-dir=/usr/local/bin --filename=composer[0m
+Jun 01 21:09:58 vps sudo[15613]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:09:58 vps sudo[15613]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:11:52 vps sudo[16166]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/apt-get update -y[0m
+Jun 01 21:11:52 vps sudo[16166]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:11:52 vps systemd[1]: Starting Update APT News...
+-- Subject: A start job for unit apt-news.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has begun execution.
+-- 
+-- The job identifier is 1750.
+Jun 01 21:11:52 vps systemd[1]: Starting Update the local ESM caches...
+-- Subject: A start job for unit esm-cache.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has begun execution.
+-- 
+-- The job identifier is 1831.
+Jun 01 21:11:52 vps systemd[1]: apt-news.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apt-news.service has successfully entered the 'dead' state.
+Jun 01 21:11:52 vps systemd[1]: Finished Update APT News.
+-- Subject: A start job for unit apt-news.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has finished successfully.
+-- 
+-- The job identifier is 1750.
+Jun 01 21:11:53 vps systemd[1]: esm-cache.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit esm-cache.service has successfully entered the 'dead' state.
+Jun 01 21:11:53 vps systemd[1]: Finished Update the local ESM caches.
+-- Subject: A start job for unit esm-cache.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has finished successfully.
+-- 
+-- The job identifier is 1831.
+Jun 01 21:11:55 vps sudo[16166]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:11:55 vps sudo[16812]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/apt-get install -y zip unzip[0m
+Jun 01 21:11:55 vps sudo[16812]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:11:58 vps sudo[16812]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:12:28 vps mariadbd[13016]: 2024-06-01 21:12:28 31 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:12:28 vps mariadbd[13016]: 2024-06-01 21:12:28 32 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:12:56 vps mariadbd[13016]: 2024-06-01 21:12:56 33 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:12:56 vps mariadbd[13016]: 2024-06-01 21:12:56 34 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:14:19 vps mariadbd[13016]: 2024-06-01 21:14:19 36 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:14:19 vps mariadbd[13016]: 2024-06-01 21:14:19 37 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:14:52 vps mariadbd[13016]: 2024-06-01 21:14:52 38 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:14:52 vps mariadbd[13016]: 2024-06-01 21:14:52 39 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:15:13 vps mariadbd[13016]: 2024-06-01 21:15:13 40 [Warning] Access denied for user 'wemx'@'localhost' (using password: YES)
+Jun 01 21:15:46 vps mariadbd[13016]: 2024-06-01 21:15:46 41 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:15:46 vps mariadbd[13016]: 2024-06-01 21:15:46 42 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:15:46 vps mariadbd[13016]: 2024-06-01 21:15:46 43 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:15:46 vps mariadbd[13016]: 2024-06-01 21:15:46 44 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:16:03 vps mariadbd[13016]: 2024-06-01 21:16:03 45 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:16:03 vps mariadbd[13016]: 2024-06-01 21:16:03 46 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:16:03 vps mariadbd[13016]: 2024-06-01 21:16:03 47 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:16:08 vps mariadbd[13016]: 2024-06-01 21:16:08 48 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:16:08 vps mariadbd[13016]: 2024-06-01 21:16:08 49 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:17:01 vps CRON[17700]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:17:01 vps CRON[17701]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 01 21:17:01 vps CRON[17700]: pam_unix(cron:session): session closed for user root
+Jun 01 21:17:03 vps PackageKit[1243]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon quit[0m
+Jun 01 21:17:03 vps systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+Jun 01 21:17:33 vps sudo[17705]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/crontab -e[0m
+Jun 01 21:17:33 vps sudo[17705]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:17:33 vps crontab[17706]: (root) BEGIN EDIT (root)
+Jun 01 21:17:52 vps crontab[17706]: (root) REPLACE (root)
+Jun 01 21:17:52 vps crontab[17706]: (root) END EDIT (root)
+Jun 01 21:17:52 vps sudo[17705]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:18:01 vps CRON[17731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:18:01 vps CRON[17732]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:18:01 vps mariadbd[13016]: 2024-06-01 21:18:01 50 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:01 vps mariadbd[13016]: 2024-06-01 21:18:01 51 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 52 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 53 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 54 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 55 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 56 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 57 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 58 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 59 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 60 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 61 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 62 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:02 vps mariadbd[13016]: 2024-06-01 21:18:02 63 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:03 vps mariadbd[13016]: 2024-06-01 21:18:03 64 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:03 vps mariadbd[13016]: 2024-06-01 21:18:03 65 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:06 vps mariadbd[13016]: 2024-06-01 21:18:06 66 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:10 vps mariadbd[13016]: 2024-06-01 21:18:10 67 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:12 vps mariadbd[13016]: 2024-06-01 21:18:12 68 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:14 vps mariadbd[13016]: 2024-06-01 21:18:14 69 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:16 vps mariadbd[13016]: 2024-06-01 21:18:16 70 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:16 vps mariadbd[13016]: 2024-06-01 21:18:16 71 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:18 vps mariadbd[13016]: 2024-06-01 21:18:18 72 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:22 vps mariadbd[13016]: 2024-06-01 21:18:22 73 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:22 vps mariadbd[13016]: 2024-06-01 21:18:22 74 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:26 vps mariadbd[13016]: 2024-06-01 21:18:26 75 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:30 vps mariadbd[13016]: 2024-06-01 21:18:30 76 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:32 vps mariadbd[13016]: 2024-06-01 21:18:32 77 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:34 vps mariadbd[13016]: 2024-06-01 21:18:34 78 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:38 vps mariadbd[13016]: 2024-06-01 21:18:38 79 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:40 vps mariadbd[13016]: 2024-06-01 21:18:40 80 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:42 vps mariadbd[13016]: 2024-06-01 21:18:42 81 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:43 vps mariadbd[13016]: 2024-06-01 21:18:43 82 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:46 vps mariadbd[13016]: 2024-06-01 21:18:46 83 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:50 vps mariadbd[13016]: 2024-06-01 21:18:50 84 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:53 vps mariadbd[13016]: 2024-06-01 21:18:53 85 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:54 vps mariadbd[13016]: 2024-06-01 21:18:54 86 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:18:58 vps mariadbd[13016]: 2024-06-01 21:18:58 87 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:00 vps CRON[17731]: pam_unix(cron:session): session closed for user root
+Jun 01 21:19:00 vps CRON[17768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:19:00 vps CRON[17769]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:19:00 vps mariadbd[13016]: 2024-06-01 21:19:00 88 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:00 vps mariadbd[13016]: 2024-06-01 21:19:00 89 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:00 vps mariadbd[13016]: 2024-06-01 21:19:00 90 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:00 vps mariadbd[13016]: 2024-06-01 21:19:00 91 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:00 vps mariadbd[13016]: 2024-06-01 21:19:00 92 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:00 vps mariadbd[13016]: 2024-06-01 21:19:00 93 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:00 vps mariadbd[13016]: 2024-06-01 21:19:00 94 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:00 vps mariadbd[13016]: 2024-06-01 21:19:00 95 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:00 vps mariadbd[13016]: 2024-06-01 21:19:00 96 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:01 vps mariadbd[13016]: 2024-06-01 21:19:01 97 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:01 vps mariadbd[13016]: 2024-06-01 21:19:01 98 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:01 vps mariadbd[13016]: 2024-06-01 21:19:01 99 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:01 vps mariadbd[13016]: 2024-06-01 21:19:01 100 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:02 vps mariadbd[13016]: 2024-06-01 21:19:02 101 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:06 vps mariadbd[13016]: 2024-06-01 21:19:06 102 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:10 vps sshd[17789]: Invalid user admin from 85.209.11.227 port 29140
+Jun 01 21:19:10 vps sshd[17789]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+Jun 01 21:19:10 vps sshd[17789]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=85.209.11.227[0m
+Jun 01 21:19:10 vps mariadbd[13016]: 2024-06-01 21:19:10 103 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:11 vps mariadbd[13016]: 2024-06-01 21:19:11 104 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:12 vps sshd[17789]: Failed password for invalid user admin from 85.209.11.227 port 29140 ssh2
+Jun 01 21:19:12 vps sshd[17789]: Connection reset by invalid user admin 85.209.11.227 port 29140 [preauth]
+Jun 01 21:19:14 vps mariadbd[13016]: 2024-06-01 21:19:14 105 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:18 vps mariadbd[13016]: 2024-06-01 21:19:18 106 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:21 vps mariadbd[13016]: 2024-06-01 21:19:21 107 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:22 vps mariadbd[13016]: 2024-06-01 21:19:22 108 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:26 vps mariadbd[13016]: 2024-06-01 21:19:26 109 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:30 vps mariadbd[13016]: 2024-06-01 21:19:30 110 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:31 vps mariadbd[13016]: 2024-06-01 21:19:31 111 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:34 vps mariadbd[13016]: 2024-06-01 21:19:34 112 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:38 vps mariadbd[13016]: 2024-06-01 21:19:38 113 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:41 vps mariadbd[13016]: 2024-06-01 21:19:41 114 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:42 vps mariadbd[13016]: 2024-06-01 21:19:42 115 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:46 vps mariadbd[13016]: 2024-06-01 21:19:46 116 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:50 vps mariadbd[13016]: 2024-06-01 21:19:50 117 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:51 vps mariadbd[13016]: 2024-06-01 21:19:51 118 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:54 vps mariadbd[13016]: 2024-06-01 21:19:54 119 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:19:58 vps mariadbd[13016]: 2024-06-01 21:19:58 120 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:00 vps CRON[17768]: pam_unix(cron:session): session closed for user root
+Jun 01 21:20:00 vps CRON[17792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:20:00 vps CRON[17793]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:20:00 vps mariadbd[13016]: 2024-06-01 21:20:00 121 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:00 vps mariadbd[13016]: 2024-06-01 21:20:00 122 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:00 vps mariadbd[13016]: 2024-06-01 21:20:00 123 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:00 vps mariadbd[13016]: 2024-06-01 21:20:00 124 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:00 vps mariadbd[13016]: 2024-06-01 21:20:00 125 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:00 vps mariadbd[13016]: 2024-06-01 21:20:00 126 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:00 vps mariadbd[13016]: 2024-06-01 21:20:00 127 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:01 vps mariadbd[13016]: 2024-06-01 21:20:01 128 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:01 vps mariadbd[13016]: 2024-06-01 21:20:01 129 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:01 vps mariadbd[13016]: 2024-06-01 21:20:01 130 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:01 vps mariadbd[13016]: 2024-06-01 21:20:01 131 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:01 vps mariadbd[13016]: 2024-06-01 21:20:01 132 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:01 vps mariadbd[13016]: 2024-06-01 21:20:01 133 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:02 vps mariadbd[13016]: 2024-06-01 21:20:02 134 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:06 vps mariadbd[13016]: 2024-06-01 21:20:06 135 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:10 vps mariadbd[13016]: 2024-06-01 21:20:10 136 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:11 vps mariadbd[13016]: 2024-06-01 21:20:11 137 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:14 vps mariadbd[13016]: 2024-06-01 21:20:14 138 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:17 vps sudo[17813]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/ln -s /etc/nginx/sites-available/wemx.conf /etc/nginx/sites-enabled/wemx.conf[0m
+Jun 01 21:20:17 vps sudo[17813]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:20:17 vps sudo[17813]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:20:18 vps mariadbd[13016]: 2024-06-01 21:20:18 139 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:20 vps sudo[17815]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx[0m
+Jun 01 21:20:20 vps sudo[17815]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:20:20 vps systemd[1]: Stopping A high performance web server and a reverse proxy server...
+-- Subject: A stop job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 1912.
+Jun 01 21:20:21 vps systemd[1]: nginx.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit nginx.service has successfully entered the 'dead' state.
+Jun 01 21:20:21 vps systemd[1]: Stopped A high performance web server and a reverse proxy server.
+-- Subject: A stop job for unit nginx.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit nginx.service has finished.
+-- 
+-- The job identifier is 1912 and the job result is done.
+Jun 01 21:20:21 vps systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: A start job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 1912.
+Jun 01 21:20:21 vps systemd[1]: Started A high performance web server and a reverse proxy server.
+-- Subject: A start job for unit nginx.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has finished successfully.
+-- 
+-- The job identifier is 1912.
+Jun 01 21:20:21 vps sudo[17815]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:20:21 vps mariadbd[13016]: 2024-06-01 21:20:21 140 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:22 vps mariadbd[13016]: 2024-06-01 21:20:22 141 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:26 vps mariadbd[13016]: 2024-06-01 21:20:26 142 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:30 vps mariadbd[13016]: 2024-06-01 21:20:30 143 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:31 vps mariadbd[13016]: 2024-06-01 21:20:31 144 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:34 vps mariadbd[13016]: 2024-06-01 21:20:34 145 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:38 vps mariadbd[13016]: 2024-06-01 21:20:38 146 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:41 vps mariadbd[13016]: 2024-06-01 21:20:41 147 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:42 vps mariadbd[13016]: 2024-06-01 21:20:42 148 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:46 vps mariadbd[13016]: 2024-06-01 21:20:46 149 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:50 vps mariadbd[13016]: 2024-06-01 21:20:50 150 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:51 vps mariadbd[13016]: 2024-06-01 21:20:51 151 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:54 vps mariadbd[13016]: 2024-06-01 21:20:54 152 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:20:58 vps mariadbd[13016]: 2024-06-01 21:20:58 153 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:00 vps CRON[17792]: pam_unix(cron:session): session closed for user root
+Jun 01 21:21:00 vps CRON[17829]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:21:00 vps CRON[17830]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:21:00 vps mariadbd[13016]: 2024-06-01 21:21:00 154 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:00 vps mariadbd[13016]: 2024-06-01 21:21:00 155 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:00 vps mariadbd[13016]: 2024-06-01 21:21:00 156 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:00 vps mariadbd[13016]: 2024-06-01 21:21:00 157 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:00 vps mariadbd[13016]: 2024-06-01 21:21:00 158 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:00 vps mariadbd[13016]: 2024-06-01 21:21:00 159 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:00 vps mariadbd[13016]: 2024-06-01 21:21:00 160 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:01 vps mariadbd[13016]: 2024-06-01 21:21:01 161 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:01 vps mariadbd[13016]: 2024-06-01 21:21:01 162 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:01 vps mariadbd[13016]: 2024-06-01 21:21:01 163 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:01 vps mariadbd[13016]: 2024-06-01 21:21:01 164 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:01 vps sudo[17848]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx[0m
+Jun 01 21:21:01 vps sudo[17848]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:21:01 vps systemd[1]: Stopping A high performance web server and a reverse proxy server...
+-- Subject: A stop job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 1993.
+Jun 01 21:21:01 vps systemd[1]: nginx.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit nginx.service has successfully entered the 'dead' state.
+Jun 01 21:21:01 vps systemd[1]: Stopped A high performance web server and a reverse proxy server.
+-- Subject: A stop job for unit nginx.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit nginx.service has finished.
+-- 
+-- The job identifier is 1993 and the job result is done.
+Jun 01 21:21:01 vps systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: A start job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 1993.
+Jun 01 21:21:01 vps mariadbd[13016]: 2024-06-01 21:21:01 165 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:01 vps mariadbd[13016]: 2024-06-01 21:21:01 166 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:01 vps systemd[1]: Started A high performance web server and a reverse proxy server.
+-- Subject: A start job for unit nginx.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has finished successfully.
+-- 
+-- The job identifier is 1993.
+Jun 01 21:21:01 vps sudo[17848]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:21:02 vps mariadbd[13016]: 2024-06-01 21:21:02 167 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:06 vps mariadbd[13016]: 2024-06-01 21:21:06 168 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:10 vps mariadbd[13016]: 2024-06-01 21:21:10 169 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:11 vps mariadbd[13016]: 2024-06-01 21:21:11 170 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:14 vps mariadbd[13016]: 2024-06-01 21:21:14 171 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:18 vps mariadbd[13016]: 2024-06-01 21:21:18 172 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:21 vps mariadbd[13016]: 2024-06-01 21:21:21 173 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:22 vps mariadbd[13016]: 2024-06-01 21:21:22 174 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:26 vps mariadbd[13016]: 2024-06-01 21:21:26 175 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:30 vps mariadbd[13016]: 2024-06-01 21:21:30 176 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:31 vps mariadbd[13016]: 2024-06-01 21:21:31 177 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:34 vps mariadbd[13016]: 2024-06-01 21:21:34 178 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:38 vps mariadbd[13016]: 2024-06-01 21:21:38 179 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:41 vps mariadbd[13016]: 2024-06-01 21:21:41 180 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:42 vps mariadbd[13016]: 2024-06-01 21:21:42 181 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:46 vps mariadbd[13016]: 2024-06-01 21:21:46 182 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:50 vps mariadbd[13016]: 2024-06-01 21:21:50 183 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:51 vps mariadbd[13016]: 2024-06-01 21:21:51 184 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:54 vps mariadbd[13016]: 2024-06-01 21:21:54 185 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:21:58 vps mariadbd[13016]: 2024-06-01 21:21:58 186 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:00 vps CRON[17829]: pam_unix(cron:session): session closed for user root
+Jun 01 21:22:00 vps CRON[17865]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:22:00 vps CRON[17866]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:22:00 vps mariadbd[13016]: 2024-06-01 21:22:00 187 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:00 vps mariadbd[13016]: 2024-06-01 21:22:00 188 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:00 vps mariadbd[13016]: 2024-06-01 21:22:00 189 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:00 vps mariadbd[13016]: 2024-06-01 21:22:00 190 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:00 vps mariadbd[13016]: 2024-06-01 21:22:00 191 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:00 vps mariadbd[13016]: 2024-06-01 21:22:00 192 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:00 vps mariadbd[13016]: 2024-06-01 21:22:00 193 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:01 vps mariadbd[13016]: 2024-06-01 21:22:01 194 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:01 vps mariadbd[13016]: 2024-06-01 21:22:01 195 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:01 vps mariadbd[13016]: 2024-06-01 21:22:01 196 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:01 vps mariadbd[13016]: 2024-06-01 21:22:01 197 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:01 vps mariadbd[13016]: 2024-06-01 21:22:01 198 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:01 vps mariadbd[13016]: 2024-06-01 21:22:01 199 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:02 vps mariadbd[13016]: 2024-06-01 21:22:02 200 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:06 vps mariadbd[13016]: 2024-06-01 21:22:06 201 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:10 vps mariadbd[13016]: 2024-06-01 21:22:10 202 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:11 vps mariadbd[13016]: 2024-06-01 21:22:11 203 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:14 vps mariadbd[13016]: 2024-06-01 21:22:14 204 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:18 vps mariadbd[13016]: 2024-06-01 21:22:18 205 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:21 vps mariadbd[13016]: 2024-06-01 21:22:21 206 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:22 vps mariadbd[13016]: 2024-06-01 21:22:22 207 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:26 vps mariadbd[13016]: 2024-06-01 21:22:26 208 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:30 vps mariadbd[13016]: 2024-06-01 21:22:30 209 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:31 vps mariadbd[13016]: 2024-06-01 21:22:31 210 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:34 vps mariadbd[13016]: 2024-06-01 21:22:34 211 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:38 vps mariadbd[13016]: 2024-06-01 21:22:38 212 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:41 vps mariadbd[13016]: 2024-06-01 21:22:41 213 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:42 vps mariadbd[13016]: 2024-06-01 21:22:42 214 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:46 vps mariadbd[13016]: 2024-06-01 21:22:46 215 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:50 vps mariadbd[13016]: 2024-06-01 21:22:50 216 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:51 vps mariadbd[13016]: 2024-06-01 21:22:51 217 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:54 vps mariadbd[13016]: 2024-06-01 21:22:54 218 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:22:58 vps mariadbd[13016]: 2024-06-01 21:22:58 219 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:00 vps CRON[17865]: pam_unix(cron:session): session closed for user root
+Jun 01 21:23:00 vps CRON[17887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:23:00 vps CRON[17888]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:23:00 vps mariadbd[13016]: 2024-06-01 21:23:00 220 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:00 vps mariadbd[13016]: 2024-06-01 21:23:00 221 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:00 vps mariadbd[13016]: 2024-06-01 21:23:00 222 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:00 vps mariadbd[13016]: 2024-06-01 21:23:00 223 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:00 vps mariadbd[13016]: 2024-06-01 21:23:00 224 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:00 vps mariadbd[13016]: 2024-06-01 21:23:00 225 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:00 vps mariadbd[13016]: 2024-06-01 21:23:00 226 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:01 vps mariadbd[13016]: 2024-06-01 21:23:01 227 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:01 vps mariadbd[13016]: 2024-06-01 21:23:01 228 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:01 vps mariadbd[13016]: 2024-06-01 21:23:01 229 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:01 vps mariadbd[13016]: 2024-06-01 21:23:01 230 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:01 vps mariadbd[13016]: 2024-06-01 21:23:01 231 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:01 vps mariadbd[13016]: 2024-06-01 21:23:01 232 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:02 vps mariadbd[13016]: 2024-06-01 21:23:02 233 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:06 vps mariadbd[13016]: 2024-06-01 21:23:06 234 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:10 vps mariadbd[13016]: 2024-06-01 21:23:10 235 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:11 vps mariadbd[13016]: 2024-06-01 21:23:11 236 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:14 vps mariadbd[13016]: 2024-06-01 21:23:14 237 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:18 vps mariadbd[13016]: 2024-06-01 21:23:18 238 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:21 vps mariadbd[13016]: 2024-06-01 21:23:21 239 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:22 vps mariadbd[13016]: 2024-06-01 21:23:22 240 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:26 vps mariadbd[13016]: 2024-06-01 21:23:26 241 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:30 vps mariadbd[13016]: 2024-06-01 21:23:30 242 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:31 vps mariadbd[13016]: 2024-06-01 21:23:31 243 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:34 vps mariadbd[13016]: 2024-06-01 21:23:34 244 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:38 vps mariadbd[13016]: 2024-06-01 21:23:38 245 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:41 vps mariadbd[13016]: 2024-06-01 21:23:41 246 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:42 vps sshd[17908]: [0;1;31m[0;1;39m[0;1;31merror: kex_exchange_identification: banner line contains invalid characters[0m
+Jun 01 21:23:42 vps mariadbd[13016]: 2024-06-01 21:23:42 247 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:46 vps mariadbd[13016]: 2024-06-01 21:23:46 248 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:50 vps mariadbd[13016]: 2024-06-01 21:23:50 249 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:51 vps mariadbd[13016]: 2024-06-01 21:23:51 250 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:54 vps mariadbd[13016]: 2024-06-01 21:23:54 251 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:23:58 vps mariadbd[13016]: 2024-06-01 21:23:58 252 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:00 vps CRON[17887]: pam_unix(cron:session): session closed for user root
+Jun 01 21:24:00 vps CRON[17909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:24:00 vps CRON[17910]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:24:00 vps mariadbd[13016]: 2024-06-01 21:24:00 253 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:00 vps mariadbd[13016]: 2024-06-01 21:24:00 254 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:00 vps mariadbd[13016]: 2024-06-01 21:24:00 255 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:00 vps mariadbd[13016]: 2024-06-01 21:24:00 256 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:00 vps mariadbd[13016]: 2024-06-01 21:24:00 257 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:00 vps mariadbd[13016]: 2024-06-01 21:24:00 258 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:00 vps mariadbd[13016]: 2024-06-01 21:24:00 259 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:01 vps mariadbd[13016]: 2024-06-01 21:24:01 260 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:01 vps mariadbd[13016]: 2024-06-01 21:24:01 261 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:01 vps mariadbd[13016]: 2024-06-01 21:24:01 262 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:01 vps mariadbd[13016]: 2024-06-01 21:24:01 263 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:01 vps mariadbd[13016]: 2024-06-01 21:24:01 264 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:01 vps mariadbd[13016]: 2024-06-01 21:24:01 265 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:02 vps mariadbd[13016]: 2024-06-01 21:24:02 266 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:06 vps mariadbd[13016]: 2024-06-01 21:24:06 267 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:10 vps mariadbd[13016]: 2024-06-01 21:24:10 268 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:11 vps mariadbd[13016]: 2024-06-01 21:24:11 269 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:14 vps mariadbd[13016]: 2024-06-01 21:24:14 270 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:18 vps mariadbd[13016]: 2024-06-01 21:24:18 271 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:21 vps mariadbd[13016]: 2024-06-01 21:24:21 272 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:22 vps mariadbd[13016]: 2024-06-01 21:24:22 273 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:26 vps mariadbd[13016]: 2024-06-01 21:24:26 274 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:30 vps mariadbd[13016]: 2024-06-01 21:24:30 275 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:31 vps mariadbd[13016]: 2024-06-01 21:24:31 276 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:34 vps mariadbd[13016]: 2024-06-01 21:24:34 277 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:38 vps mariadbd[13016]: 2024-06-01 21:24:38 278 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:41 vps mariadbd[13016]: 2024-06-01 21:24:41 279 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:42 vps mariadbd[13016]: 2024-06-01 21:24:42 280 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:46 vps mariadbd[13016]: 2024-06-01 21:24:46 281 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:50 vps mariadbd[13016]: 2024-06-01 21:24:50 282 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:51 vps mariadbd[13016]: 2024-06-01 21:24:51 283 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:54 vps mariadbd[13016]: 2024-06-01 21:24:54 284 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:24:58 vps mariadbd[13016]: 2024-06-01 21:24:58 285 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:00 vps CRON[17909]: pam_unix(cron:session): session closed for user root
+Jun 01 21:25:00 vps CRON[17931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:25:00 vps CRON[17932]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:25:00 vps mariadbd[13016]: 2024-06-01 21:25:00 286 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:00 vps mariadbd[13016]: 2024-06-01 21:25:00 287 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:00 vps mariadbd[13016]: 2024-06-01 21:25:00 288 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:00 vps mariadbd[13016]: 2024-06-01 21:25:00 289 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:00 vps mariadbd[13016]: 2024-06-01 21:25:00 290 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:00 vps mariadbd[13016]: 2024-06-01 21:25:00 291 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:00 vps mariadbd[13016]: 2024-06-01 21:25:00 292 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:01 vps mariadbd[13016]: 2024-06-01 21:25:01 293 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:01 vps mariadbd[13016]: 2024-06-01 21:25:01 294 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:01 vps mariadbd[13016]: 2024-06-01 21:25:01 295 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:01 vps mariadbd[13016]: 2024-06-01 21:25:01 296 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:01 vps mariadbd[13016]: 2024-06-01 21:25:01 297 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:01 vps mariadbd[13016]: 2024-06-01 21:25:01 298 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:02 vps mariadbd[13016]: 2024-06-01 21:25:02 299 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:06 vps mariadbd[13016]: 2024-06-01 21:25:06 300 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:06 vps sshd[17952]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=141.98.10.106  user=root[0m
+Jun 01 21:25:09 vps sshd[17952]: Failed password for root from 141.98.10.106 port 44964 ssh2
+Jun 01 21:25:10 vps mariadbd[13016]: 2024-06-01 21:25:10 301 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:11 vps mariadbd[13016]: 2024-06-01 21:25:11 302 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:11 vps sshd[17952]: Connection closed by authenticating user root 141.98.10.106 port 44964 [preauth]
+Jun 01 21:25:14 vps mariadbd[13016]: 2024-06-01 21:25:14 303 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:18 vps mariadbd[13016]: 2024-06-01 21:25:18 304 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:21 vps mariadbd[13016]: 2024-06-01 21:25:21 305 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:22 vps mariadbd[13016]: 2024-06-01 21:25:22 306 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:26 vps mariadbd[13016]: 2024-06-01 21:25:26 307 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:30 vps mariadbd[13016]: 2024-06-01 21:25:30 308 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:31 vps mariadbd[13016]: 2024-06-01 21:25:31 309 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:34 vps mariadbd[13016]: 2024-06-01 21:25:34 310 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:38 vps mariadbd[13016]: 2024-06-01 21:25:38 311 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:41 vps mariadbd[13016]: 2024-06-01 21:25:41 312 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:42 vps mariadbd[13016]: 2024-06-01 21:25:42 313 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:46 vps mariadbd[13016]: 2024-06-01 21:25:46 314 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:50 vps mariadbd[13016]: 2024-06-01 21:25:50 315 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:51 vps mariadbd[13016]: 2024-06-01 21:25:51 316 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:54 vps mariadbd[13016]: 2024-06-01 21:25:54 317 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:25:58 vps mariadbd[13016]: 2024-06-01 21:25:58 318 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:00 vps CRON[17931]: pam_unix(cron:session): session closed for user root
+Jun 01 21:26:00 vps CRON[17954]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:26:00 vps CRON[17955]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:26:00 vps mariadbd[13016]: 2024-06-01 21:26:00 319 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:00 vps mariadbd[13016]: 2024-06-01 21:26:00 320 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:00 vps mariadbd[13016]: 2024-06-01 21:26:00 321 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:00 vps mariadbd[13016]: 2024-06-01 21:26:00 322 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:00 vps mariadbd[13016]: 2024-06-01 21:26:00 323 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:00 vps mariadbd[13016]: 2024-06-01 21:26:00 324 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:00 vps mariadbd[13016]: 2024-06-01 21:26:00 325 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:00 vps mariadbd[13016]: 2024-06-01 21:26:00 326 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:00 vps mariadbd[13016]: 2024-06-01 21:26:00 327 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:01 vps mariadbd[13016]: 2024-06-01 21:26:01 328 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:01 vps mariadbd[13016]: 2024-06-01 21:26:01 329 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:01 vps mariadbd[13016]: 2024-06-01 21:26:01 330 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:01 vps mariadbd[13016]: 2024-06-01 21:26:01 331 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:02 vps mariadbd[13016]: 2024-06-01 21:26:02 332 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:06 vps sshd[17975]: Invalid user test from 193.201.9.156 port 61134
+Jun 01 21:26:06 vps mariadbd[13016]: 2024-06-01 21:26:06 333 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:06 vps sshd[17975]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+Jun 01 21:26:06 vps sshd[17975]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=193.201.9.156[0m
+Jun 01 21:26:08 vps sshd[17975]: Failed password for invalid user test from 193.201.9.156 port 61134 ssh2
+Jun 01 21:26:10 vps sshd[17975]: Connection reset by invalid user test 193.201.9.156 port 61134 [preauth]
+Jun 01 21:26:10 vps mariadbd[13016]: 2024-06-01 21:26:10 334 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:11 vps mariadbd[13016]: 2024-06-01 21:26:11 335 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:14 vps mariadbd[13016]: 2024-06-01 21:26:14 336 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:18 vps mariadbd[13016]: 2024-06-01 21:26:18 337 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:21 vps mariadbd[13016]: 2024-06-01 21:26:21 338 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:22 vps mariadbd[13016]: 2024-06-01 21:26:22 339 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:26 vps mariadbd[13016]: 2024-06-01 21:26:26 340 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:30 vps mariadbd[13016]: 2024-06-01 21:26:30 341 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:31 vps mariadbd[13016]: 2024-06-01 21:26:31 342 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:34 vps mariadbd[13016]: 2024-06-01 21:26:34 343 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:38 vps mariadbd[13016]: 2024-06-01 21:26:38 344 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:41 vps mariadbd[13016]: 2024-06-01 21:26:41 345 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:42 vps mariadbd[13016]: 2024-06-01 21:26:42 346 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:43 vps sshd[17978]: Accepted password for root from 91.94.83.148 port 6532 ssh2
+Jun 01 21:26:43 vps sshd[17978]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jun 01 21:26:43 vps systemd[1]: Started Session 14 of user root.
+-- Subject: A start job for unit session-14.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-14.scope has finished successfully.
+-- 
+-- The job identifier is 2074.
+Jun 01 21:26:43 vps systemd-logind[445]: New session 14 of user root.
+-- Subject: A new session 14 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 14 has been created for the user root.
+-- 
+-- The leading process of the session is 17978.
+Jun 01 21:26:46 vps mariadbd[13016]: 2024-06-01 21:26:46 347 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:50 vps mariadbd[13016]: 2024-06-01 21:26:50 348 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:51 vps mariadbd[13016]: 2024-06-01 21:26:51 349 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:54 vps mariadbd[13016]: 2024-06-01 21:26:54 350 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:26:58 vps mariadbd[13016]: 2024-06-01 21:26:58 351 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:00 vps CRON[17954]: pam_unix(cron:session): session closed for user root
+Jun 01 21:27:00 vps CRON[18057]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:27:00 vps CRON[18058]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:27:00 vps mariadbd[13016]: 2024-06-01 21:27:00 352 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:00 vps mariadbd[13016]: 2024-06-01 21:27:00 353 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:00 vps mariadbd[13016]: 2024-06-01 21:27:00 354 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:00 vps mariadbd[13016]: 2024-06-01 21:27:00 355 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:00 vps mariadbd[13016]: 2024-06-01 21:27:00 356 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:00 vps mariadbd[13016]: 2024-06-01 21:27:00 357 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:00 vps mariadbd[13016]: 2024-06-01 21:27:00 358 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:01 vps mariadbd[13016]: 2024-06-01 21:27:01 359 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:01 vps mariadbd[13016]: 2024-06-01 21:27:01 360 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:01 vps mariadbd[13016]: 2024-06-01 21:27:01 361 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:01 vps mariadbd[13016]: 2024-06-01 21:27:01 362 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:01 vps mariadbd[13016]: 2024-06-01 21:27:01 363 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:01 vps mariadbd[13016]: 2024-06-01 21:27:01 364 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:02 vps mariadbd[13016]: 2024-06-01 21:27:02 365 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:06 vps mariadbd[13016]: 2024-06-01 21:27:06 366 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:10 vps mariadbd[13016]: 2024-06-01 21:27:10 367 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:11 vps mariadbd[13016]: 2024-06-01 21:27:11 368 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:14 vps mariadbd[13016]: 2024-06-01 21:27:14 369 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:18 vps mariadbd[13016]: 2024-06-01 21:27:18 370 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:21 vps mariadbd[13016]: 2024-06-01 21:27:21 371 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:22 vps mariadbd[13016]: 2024-06-01 21:27:22 372 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:26 vps mariadbd[13016]: 2024-06-01 21:27:26 373 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:30 vps mariadbd[13016]: 2024-06-01 21:27:30 374 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:31 vps mariadbd[13016]: 2024-06-01 21:27:31 375 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:34 vps mariadbd[13016]: 2024-06-01 21:27:34 376 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:38 vps mariadbd[13016]: 2024-06-01 21:27:38 377 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:41 vps mariadbd[13016]: 2024-06-01 21:27:41 378 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:42 vps mariadbd[13016]: 2024-06-01 21:27:42 379 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:46 vps mariadbd[13016]: 2024-06-01 21:27:46 380 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:50 vps mariadbd[13016]: 2024-06-01 21:27:50 381 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:51 vps mariadbd[13016]: 2024-06-01 21:27:51 382 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:54 vps mariadbd[13016]: 2024-06-01 21:27:54 383 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:27:58 vps mariadbd[13016]: 2024-06-01 21:27:58 384 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:00 vps CRON[18057]: pam_unix(cron:session): session closed for user root
+Jun 01 21:28:00 vps CRON[18078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:28:00 vps CRON[18079]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:28:00 vps mariadbd[13016]: 2024-06-01 21:28:00 385 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:00 vps mariadbd[13016]: 2024-06-01 21:28:00 386 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:00 vps mariadbd[13016]: 2024-06-01 21:28:00 387 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:00 vps mariadbd[13016]: 2024-06-01 21:28:00 388 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:00 vps mariadbd[13016]: 2024-06-01 21:28:00 389 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:00 vps mariadbd[13016]: 2024-06-01 21:28:00 390 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:00 vps mariadbd[13016]: 2024-06-01 21:28:00 391 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:00 vps mariadbd[13016]: 2024-06-01 21:28:00 392 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:00 vps mariadbd[13016]: 2024-06-01 21:28:00 393 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:01 vps mariadbd[13016]: 2024-06-01 21:28:01 394 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:01 vps mariadbd[13016]: 2024-06-01 21:28:01 395 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:01 vps mariadbd[13016]: 2024-06-01 21:28:01 396 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:01 vps mariadbd[13016]: 2024-06-01 21:28:01 397 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:02 vps mariadbd[13016]: 2024-06-01 21:28:02 398 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:06 vps mariadbd[13016]: 2024-06-01 21:28:06 399 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:10 vps mariadbd[13016]: 2024-06-01 21:28:10 400 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:11 vps mariadbd[13016]: 2024-06-01 21:28:11 401 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:14 vps mariadbd[13016]: 2024-06-01 21:28:14 402 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:18 vps mariadbd[13016]: 2024-06-01 21:28:18 403 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:21 vps mariadbd[13016]: 2024-06-01 21:28:21 404 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:22 vps mariadbd[13016]: 2024-06-01 21:28:22 405 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:26 vps mariadbd[13016]: 2024-06-01 21:28:26 406 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:30 vps mariadbd[13016]: 2024-06-01 21:28:30 407 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:31 vps mariadbd[13016]: 2024-06-01 21:28:31 408 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:34 vps mariadbd[13016]: 2024-06-01 21:28:34 409 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:38 vps mariadbd[13016]: 2024-06-01 21:28:38 410 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:41 vps mariadbd[13016]: 2024-06-01 21:28:41 411 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:42 vps mariadbd[13016]: 2024-06-01 21:28:42 412 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:43 vps sshd[18099]: Accepted password for root from 91.94.83.148 port 4719 ssh2
+Jun 01 21:28:43 vps sshd[18099]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jun 01 21:28:43 vps systemd[1]: Started Session 17 of user root.
+-- Subject: A start job for unit session-17.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-17.scope has finished successfully.
+-- 
+-- The job identifier is 2159.
+Jun 01 21:28:43 vps systemd-logind[445]: New session 17 of user root.
+-- Subject: A new session 17 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 17 has been created for the user root.
+-- 
+-- The leading process of the session is 18099.
+Jun 01 21:28:46 vps mariadbd[13016]: 2024-06-01 21:28:46 413 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:50 vps mariadbd[13016]: 2024-06-01 21:28:50 414 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:51 vps mariadbd[13016]: 2024-06-01 21:28:51 415 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:54 vps mariadbd[13016]: 2024-06-01 21:28:54 416 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:28:58 vps mariadbd[13016]: 2024-06-01 21:28:58 417 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:00 vps CRON[18078]: pam_unix(cron:session): session closed for user root
+Jun 01 21:29:00 vps CRON[18174]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:29:00 vps CRON[18175]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:29:00 vps mariadbd[13016]: 2024-06-01 21:29:00 418 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:00 vps mariadbd[13016]: 2024-06-01 21:29:00 419 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:00 vps mariadbd[13016]: 2024-06-01 21:29:00 420 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:00 vps mariadbd[13016]: 2024-06-01 21:29:00 421 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:00 vps mariadbd[13016]: 2024-06-01 21:29:00 422 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:00 vps mariadbd[13016]: 2024-06-01 21:29:00 423 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:00 vps mariadbd[13016]: 2024-06-01 21:29:00 424 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:00 vps mariadbd[13016]: 2024-06-01 21:29:00 425 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:00 vps mariadbd[13016]: 2024-06-01 21:29:00 426 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:01 vps mariadbd[13016]: 2024-06-01 21:29:01 427 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:01 vps mariadbd[13016]: 2024-06-01 21:29:01 428 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:01 vps mariadbd[13016]: 2024-06-01 21:29:01 429 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:01 vps mariadbd[13016]: 2024-06-01 21:29:01 430 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:02 vps mariadbd[13016]: 2024-06-01 21:29:02 431 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:05 vps sshd[17978]: pam_unix(sshd:session): session closed for user root
+Jun 01 21:29:05 vps sshd[18099]: pam_unix(sshd:session): session closed for user root
+Jun 01 21:29:05 vps systemd[1]: session-14.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit session-14.scope has successfully entered the 'dead' state.
+Jun 01 21:29:05 vps systemd[1]: session-17.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit session-17.scope has successfully entered the 'dead' state.
+Jun 01 21:29:05 vps systemd-logind[445]: Session 14 logged out. Waiting for processes to exit.
+Jun 01 21:29:05 vps systemd-logind[445]: Session 17 logged out. Waiting for processes to exit.
+Jun 01 21:29:05 vps systemd-logind[445]: Removed session 14.
+-- Subject: Session 14 has been terminated
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 14 has been terminated.
+Jun 01 21:29:05 vps systemd-logind[445]: Removed session 17.
+-- Subject: Session 17 has been terminated
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 17 has been terminated.
+Jun 01 21:29:06 vps mariadbd[13016]: 2024-06-01 21:29:06 432 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:10 vps mariadbd[13016]: 2024-06-01 21:29:10 433 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:11 vps mariadbd[13016]: 2024-06-01 21:29:11 434 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:14 vps mariadbd[13016]: 2024-06-01 21:29:14 435 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:18 vps mariadbd[13016]: 2024-06-01 21:29:18 436 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:21 vps mariadbd[13016]: 2024-06-01 21:29:21 437 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:22 vps mariadbd[13016]: 2024-06-01 21:29:22 438 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:26 vps mariadbd[13016]: 2024-06-01 21:29:26 439 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:30 vps mariadbd[13016]: 2024-06-01 21:29:30 440 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:31 vps mariadbd[13016]: 2024-06-01 21:29:31 441 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:34 vps mariadbd[13016]: 2024-06-01 21:29:34 442 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:38 vps mariadbd[13016]: 2024-06-01 21:29:38 443 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:41 vps mariadbd[13016]: 2024-06-01 21:29:41 444 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:42 vps mariadbd[13016]: 2024-06-01 21:29:42 445 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:46 vps mariadbd[13016]: 2024-06-01 21:29:46 446 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:50 vps mariadbd[13016]: 2024-06-01 21:29:50 447 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:51 vps mariadbd[13016]: 2024-06-01 21:29:51 448 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:54 vps mariadbd[13016]: 2024-06-01 21:29:54 449 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:29:58 vps mariadbd[13016]: 2024-06-01 21:29:58 450 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:00 vps CRON[18174]: pam_unix(cron:session): session closed for user root
+Jun 01 21:30:00 vps CRON[18198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:30:00 vps CRON[18199]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:30:00 vps mariadbd[13016]: 2024-06-01 21:30:00 451 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:00 vps mariadbd[13016]: 2024-06-01 21:30:00 452 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:00 vps mariadbd[13016]: 2024-06-01 21:30:00 453 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:00 vps mariadbd[13016]: 2024-06-01 21:30:00 454 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:00 vps mariadbd[13016]: 2024-06-01 21:30:00 455 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:00 vps mariadbd[13016]: 2024-06-01 21:30:00 456 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:00 vps mariadbd[13016]: 2024-06-01 21:30:00 457 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:01 vps mariadbd[13016]: 2024-06-01 21:30:01 458 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:01 vps mariadbd[13016]: 2024-06-01 21:30:01 459 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:01 vps mariadbd[13016]: 2024-06-01 21:30:01 460 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:01 vps mariadbd[13016]: 2024-06-01 21:30:01 461 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:01 vps mariadbd[13016]: 2024-06-01 21:30:01 462 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:01 vps mariadbd[13016]: 2024-06-01 21:30:01 463 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:02 vps mariadbd[13016]: 2024-06-01 21:30:02 464 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:06 vps mariadbd[13016]: 2024-06-01 21:30:06 465 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:10 vps sudo[18219]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/ln -s /etc/nginx/sites-available/wemx.conf /etc/nginx/sites-enabled/wemx.conf[0m
+Jun 01 21:30:10 vps sudo[18219]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:30:10 vps sudo[18219]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:30:10 vps mariadbd[13016]: 2024-06-01 21:30:10 466 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:11 vps mariadbd[13016]: 2024-06-01 21:30:11 467 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:14 vps mariadbd[13016]: 2024-06-01 21:30:14 468 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:18 vps mariadbd[13016]: 2024-06-01 21:30:18 469 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:21 vps mariadbd[13016]: 2024-06-01 21:30:21 470 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:22 vps mariadbd[13016]: 2024-06-01 21:30:22 471 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:24 vps sshd[18221]: Accepted password for root from 91.94.83.148 port 11562 ssh2
+Jun 01 21:30:24 vps sshd[18221]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jun 01 21:30:24 vps systemd[1]: Started Session 20 of user root.
+-- Subject: A start job for unit session-20.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-20.scope has finished successfully.
+-- 
+-- The job identifier is 2244.
+Jun 01 21:30:24 vps systemd-logind[445]: New session 20 of user root.
+-- Subject: A new session 20 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 20 has been created for the user root.
+-- 
+-- The leading process of the session is 18221.
+Jun 01 21:30:26 vps mariadbd[13016]: 2024-06-01 21:30:26 472 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:30 vps mariadbd[13016]: 2024-06-01 21:30:30 473 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:31 vps mariadbd[13016]: 2024-06-01 21:30:31 474 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:34 vps mariadbd[13016]: 2024-06-01 21:30:34 475 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:35 vps sshd[18296]: Accepted password for root from 91.94.83.148 port 22141 ssh2
+Jun 01 21:30:35 vps sshd[18296]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jun 01 21:30:35 vps systemd[1]: Started Session 21 of user root.
+-- Subject: A start job for unit session-21.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-21.scope has finished successfully.
+-- 
+-- The job identifier is 2329.
+Jun 01 21:30:35 vps systemd-logind[445]: New session 21 of user root.
+-- Subject: A new session 21 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 21 has been created for the user root.
+-- 
+-- The leading process of the session is 18296.
+Jun 01 21:30:38 vps mariadbd[13016]: 2024-06-01 21:30:38 476 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:41 vps mariadbd[13016]: 2024-06-01 21:30:41 477 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:42 vps mariadbd[13016]: 2024-06-01 21:30:42 478 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:46 vps mariadbd[13016]: 2024-06-01 21:30:46 479 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:50 vps mariadbd[13016]: 2024-06-01 21:30:50 480 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:51 vps mariadbd[13016]: 2024-06-01 21:30:51 481 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:54 vps mariadbd[13016]: 2024-06-01 21:30:54 482 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:30:55 vps sudo[18360]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx[0m
+Jun 01 21:30:55 vps sudo[18360]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:30:55 vps systemd[1]: Stopping A high performance web server and a reverse proxy server...
+-- Subject: A stop job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 2414.
+Jun 01 21:30:55 vps systemd[1]: nginx.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit nginx.service has successfully entered the 'dead' state.
+Jun 01 21:30:55 vps systemd[1]: Stopped A high performance web server and a reverse proxy server.
+-- Subject: A stop job for unit nginx.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit nginx.service has finished.
+-- 
+-- The job identifier is 2414 and the job result is done.
+Jun 01 21:30:55 vps systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: A start job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 2414.
+Jun 01 21:30:55 vps nginx[18364]: nginx: [emerg] open() "/etc/nginx/sites-enabled/default" failed (2: No such file or directory) in /etc/nginx/nginx.conf:62
+Jun 01 21:30:55 vps nginx[18364]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Jun 01 21:30:55 vps systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit nginx.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 01 21:30:55 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit nginx.service has entered the 'failed' state with result 'exit-code'.
+Jun 01 21:30:55 vps systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start A high performance web server and a reverse proxy server.[0m
+-- Subject: A start job for unit nginx.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has finished with a failure.
+-- 
+-- The job identifier is 2414 and the job result is failed.
+Jun 01 21:30:55 vps sudo[18360]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:30:57 vps sudo[18367]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx[0m
+Jun 01 21:30:57 vps sudo[18367]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:30:57 vps systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: A start job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 2495.
+Jun 01 21:30:57 vps nginx[18370]: nginx: [emerg] open() "/etc/nginx/sites-enabled/default" failed (2: No such file or directory) in /etc/nginx/nginx.conf:62
+Jun 01 21:30:57 vps nginx[18370]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Jun 01 21:30:57 vps systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit nginx.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 01 21:30:57 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit nginx.service has entered the 'failed' state with result 'exit-code'.
+Jun 01 21:30:57 vps systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start A high performance web server and a reverse proxy server.[0m
+-- Subject: A start job for unit nginx.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has finished with a failure.
+-- 
+-- The job identifier is 2495 and the job result is failed.
+Jun 01 21:30:57 vps sudo[18367]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:30:58 vps mariadbd[13016]: 2024-06-01 21:30:58 483 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:00 vps CRON[18198]: pam_unix(cron:session): session closed for user root
+Jun 01 21:31:00 vps CRON[18372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 01 21:31:00 vps CRON[18373]: (root) CMD (php /var/www/wemx/artisan schedule:run >> /dev/null 2>&1)
+Jun 01 21:31:00 vps mariadbd[13016]: 2024-06-01 21:31:00 484 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:00 vps mariadbd[13016]: 2024-06-01 21:31:00 485 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:00 vps mariadbd[13016]: 2024-06-01 21:31:00 486 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:00 vps mariadbd[13016]: 2024-06-01 21:31:00 487 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:00 vps mariadbd[13016]: 2024-06-01 21:31:00 488 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:00 vps mariadbd[13016]: 2024-06-01 21:31:00 489 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:00 vps mariadbd[13016]: 2024-06-01 21:31:00 490 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:00 vps mariadbd[13016]: 2024-06-01 21:31:00 491 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:00 vps mariadbd[13016]: 2024-06-01 21:31:00 492 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:01 vps mariadbd[13016]: 2024-06-01 21:31:01 493 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:01 vps mariadbd[13016]: 2024-06-01 21:31:01 494 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:01 vps mariadbd[13016]: 2024-06-01 21:31:01 495 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:01 vps mariadbd[13016]: 2024-06-01 21:31:01 496 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:02 vps mariadbd[13016]: 2024-06-01 21:31:02 497 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:03 vps sudo[18393]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/apt update[0m
+Jun 01 21:31:03 vps sudo[18393]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:31:03 vps systemd[1]: Starting Update APT News...
+-- Subject: A start job for unit apt-news.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has begun execution.
+-- 
+-- The job identifier is 2576.
+Jun 01 21:31:03 vps systemd[1]: Starting Update the local ESM caches...
+-- Subject: A start job for unit esm-cache.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has begun execution.
+-- 
+-- The job identifier is 2657.
+Jun 01 21:31:03 vps systemd[1]: apt-news.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apt-news.service has successfully entered the 'dead' state.
+Jun 01 21:31:03 vps systemd[1]: Finished Update APT News.
+-- Subject: A start job for unit apt-news.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-news.service has finished successfully.
+-- 
+-- The job identifier is 2576.
+Jun 01 21:31:04 vps systemd[1]: esm-cache.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit esm-cache.service has successfully entered the 'dead' state.
+Jun 01 21:31:04 vps systemd[1]: Finished Update the local ESM caches.
+-- Subject: A start job for unit esm-cache.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit esm-cache.service has finished successfully.
+-- 
+-- The job identifier is 2657.
+Jun 01 21:31:04 vps dbus-daemon[411]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.36' (uid=0 pid=19014 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Jun 01 21:31:04 vps systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 2738.
+Jun 01 21:31:04 vps PackageKit[19017]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Jun 01 21:31:04 vps dbus-daemon[411]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jun 01 21:31:04 vps systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 2738.
+Jun 01 21:31:06 vps mariadbd[13016]: 2024-06-01 21:31:06 498 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:07 vps sudo[18393]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:31:10 vps mariadbd[13016]: 2024-06-01 21:31:10 499 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:11 vps mariadbd[13016]: 2024-06-01 21:31:11 500 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:12 vps sudo[19045]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/apt upgrade[0m
+Jun 01 21:31:12 vps sudo[19045]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:31:14 vps mariadbd[13016]: 2024-06-01 21:31:14 501 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:17 vps sudo[19045]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:31:18 vps mariadbd[13016]: 2024-06-01 21:31:18 502 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:20 vps sudo[19172]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/wemx ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx[0m
+Jun 01 21:31:20 vps sudo[19172]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 01 21:31:20 vps systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: A start job for unit nginx.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has begun execution.
+-- 
+-- The job identifier is 2820.
+Jun 01 21:31:20 vps nginx[19175]: nginx: [emerg] open() "/etc/nginx/sites-enabled/default" failed (2: No such file or directory) in /etc/nginx/nginx.conf:62
+Jun 01 21:31:20 vps nginx[19175]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Jun 01 21:31:20 vps systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStartPre= process belonging to unit nginx.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Jun 01 21:31:20 vps systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit nginx.service has entered the 'failed' state with result 'exit-code'.
+Jun 01 21:31:20 vps systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start A high performance web server and a reverse proxy server.[0m
+-- Subject: A start job for unit nginx.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nginx.service has finished with a failure.
+-- 
+-- The job identifier is 2820 and the job result is failed.
+Jun 01 21:31:20 vps sudo[19172]: pam_unix(sudo:session): session closed for user root
+Jun 01 21:31:21 vps mariadbd[13016]: 2024-06-01 21:31:21 503 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:22 vps mariadbd[13016]: 2024-06-01 21:31:22 504 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)
+Jun 01 21:31:26 vps mariadbd[13016]: 2024-06-01 21:31:26 505 [Warning] Access denied for user 'wemx'@'localhost' (using password: NO)

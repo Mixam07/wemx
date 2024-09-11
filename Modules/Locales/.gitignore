@@ -1,0 +1,10 @@
+/node_modules
+/storage/*
+/vendor
+/.idea
+.vscode/*
+.idea/*
+
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php

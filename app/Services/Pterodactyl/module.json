@@ -1,0 +1,11 @@
+{
+    "name": "Pterodactyl",
+    "alias": "pterodactyl",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "App\\Services\\Pterodactyl\\Providers\\PterodactylServiceProvider"
+    ],
+    "files": ["helpers.php"]
+}

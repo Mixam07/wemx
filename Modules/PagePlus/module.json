@@ -1,0 +1,11 @@
+{
+    "name": "PagePlus",
+    "alias": "pageplus",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PagePlus\\Providers\\PagePlusServiceProvider"
+    ],
+    "files": ["helper.php"]
+}

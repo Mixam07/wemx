@@ -1,0 +1,23 @@
+{
+    "name": "wemx/affiliates",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mubeen",
+            "email": "mubeen@wemx.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Affiliates\\": ""
+        }
+    }
+}
